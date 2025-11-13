@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Saya</title>
+    <style>
+        body {font-family: Arial; margin: 0; padding: 0;}
+        header {background: #333; color: white; text-align: center; padding: 10px;}
+        nav a {color: white; margin: 10px; text-decoration: none;}
+        nav a:hover {text-decoration: underline;}
+        form {max-width: 400px; margin: 20px auto; background: #f2f2f2; padding: 20px; border-radius: 5px;}
+        label {display: block; margin-top: 10px;}
+        input, select, textarea {width: 100%; padding: 8px; margin-top: 5px;}
+        button {margin-top: 10px; padding: 10px; background: #4CAF50; color: white; border: none; cursor: pointer;}
+        button:hover {background: #45a049;}
+        footer {background: #333; color: white; text-align: center; padding: 10px; margin-top: 20px;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kontak Saya</h1>
+        <nav>
+            <a href="index.html">Beranda</a>
+            <a href="portofolio.html">Portofolio</a>
+            <a href="contact.html">Kontak</a>
+        </nav>
+    </header>
+
+    <form>
+        <h3>Form Request Project</h3>
+        <label>Nama:</label>
+        <input type="text" placeholder="Masukkan nama Anda">
+
+        <label>Email:</label>
+        <input type="email" placeholder="Masukkan email Anda">
+
+        <label>Jenis Layanan:</label>
+        <select>
+            <option>Pembuatan Website</option>
+            <option>Konsultasi</option>
+            <option>Desain UI/UX</option>
+        </select>
+
+        <label>Pesan:</label>
+        <textarea rows="4" placeholder="Tuliskan pesan Anda"></textarea>
+
+        <label><input type="radio" name="jenis" checked> Personal</label>
+        <label><input type="radio" name="jenis"> Bisnis</label>
+
+        <label><input type="checkbox"> Saya setuju dengan ketentuan</label>
+
+        <button type="submit">Kirim</button>
+    </form>
+
+    <footer>
+        <p>© 2025 | <a href="https://www.itpln.ac.id" style="color:lightgreen;">Institut Teknologi PLN</a></p>
+    </footer>
+</body>
+</html>
